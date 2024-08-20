@@ -33,12 +33,12 @@ export default function Projects() {
     },
     {
       name: 'HexAround',
-      description: 'Created a Hex-like game with a hexagonal board and 6 abilities.',
+      description: 'Created a Hex-like game with an infinite hexagonal board and 6 abilities.',
       skills: [
         ['Java', 'backend'],
         ['Algorithms', 'backend'],
+        ['Data structures', 'backend'],
         ['Design patterns', 'backend'],
-        ['Unit testing', 'devops']
       ],
       imageSrc: hiveGameplay,
       url: 'https://github.com/willdufault/hexaround'
@@ -73,7 +73,7 @@ export default function Projects() {
 
   return (
     <>
-      <Section id='projects'>
+      <Section id='projects' isAlternate={true}>
         <SectionTitle>Projects</SectionTitle>
         <div className='flex flex-col gap-3 sm:grid sm:grid-cols-2'>
           {projects.map((project, index) =>

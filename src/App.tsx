@@ -12,10 +12,10 @@ function App() {
       <article>
         <NavigationBar></NavigationBar>
         <Hero></Hero>
+        <Education></Education>
         <Experience></Experience>
         <Projects></Projects>
         <Skills></Skills>
-        <Education></Education>
         <Footer></Footer>
       </article>
     </>

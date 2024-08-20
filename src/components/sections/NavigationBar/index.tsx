@@ -30,10 +30,10 @@ export default function NavigationBar() {
               <FontAwesomeIcon icon={faXmark} className='h-6 w-6'></FontAwesomeIcon>
             </button>
             <div className='flex flex-col sm:flex-row justify-start gap-4 p-4 sm:p-0'>
+              <a href="#education" className='hover:underline' onClick={closeMenu}>Education</a>
               <a href="#experience" className='hover:underline' onClick={closeMenu}>Experience</a>
               <a href="#projects" className='hover:underline' onClick={closeMenu}>Projects</a>
               <a href="#skills" className='hover:underline' onClick={closeMenu}>Skills</a>
-              <a href="#education" className='hover:underline' onClick={closeMenu}>Education</a>
             </div>
           </div>
           <div className='flex items-center gap-x-4'>

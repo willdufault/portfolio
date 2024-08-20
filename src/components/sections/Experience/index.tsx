@@ -5,6 +5,7 @@ import Card from '../../Card';
 import Skill from '../../Skill';
 import bjsLogo from '../../../assets/images/bjs-logo.jpg';
 import upworkLogo from '../../../assets/images/upwork-logo.jpg'
+import wpiSeal from '../../../assets/images/wpi-seal.png'
 
 export default function Experience() {
   interface JobData {
@@ -22,7 +23,7 @@ export default function Experience() {
       position: 'Software Engineer',
       company: 'BJ\'s Wholesale Club',
       description: [
-        'Identified and deleted 94 TB of duplicate data from S3 using Python, saving $26,000 per year',
+        'Identified and deleted 94 TB of duplicate data from S3 using Python, saving $26,000 per year (projected)',
         'Decreased backup time by 98% by using Python with multithreading to concurrently copy files to S3',
         'Automated EMR key rotation using Python, Jenkins, and Secrets Manager, enhancing data security'
       ],
@@ -74,17 +75,36 @@ export default function Experience() {
         ['Agile', 'devops']
       ],
       imageSrc: bjsLogo
+    },
+    {
+      position: 'Undergraduate Teaching Assistant',
+      company: 'WPI',
+      description: [
+        'Taught the fundamentals of Java and object-oriented programming to a 400+ students',
+        'Expedited grading by 10%+ by using Python to automatically reject incorrect responses',
+        'Troubleshot problems in labs and office hours and guided students through testing and debugging'
+      ],
+      startDate: 'Sep 2023',
+      endDate: 'Dec 2023',
+      skills: [
+        ['Java', 'backend'],
+        ['Python', 'backend'],
+        ['OOP', 'backend'],
+        ['Regex', 'backend'],
+        ['Debugging', 'backend']
+      ],
+      imageSrc: wpiSeal
     }
   ]
 
   return (
     <>
-      <Section id='experience' isAlternate={true}>
+      <Section id='experience'>
         <SectionTitle>Experience</SectionTitle>
         <div className='flex flex-col gap-y-3'>
           {jobs.map((job, index) =>
             <Card key={index}>
-              <div className='md:flex md:gap-4'>
+              <div className='sm:flex sm:gap-4'>
                 <img src={job.imageSrc} alt={`${job.company}'s logo`} className='w-24 h-24 mb-2 rounded-xl' />
                 <div>
                   <h4 className='font-semibold'>{job.position}</h4>
