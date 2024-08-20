@@ -33,7 +33,7 @@ export default function Projects() {
     },
     {
       name: 'HexAround',
-      description: 'Created a Hex-like game with an infinite hexagonal board and 6 abilities.',
+      description: 'Created a Hex-like game with an infinite hexagonal board.',
       skills: [
         ['Java', 'backend'],
         ['Algorithms', 'backend'],
