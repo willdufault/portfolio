@@ -22,11 +22,10 @@ export default function Projects() {
       name: 'Beecology',
       description: 'Revamped the user interface of a citizen science web app.',
       skills: [
-        ['Angular', 'frontend'],
         ['TypeScript', 'frontend'],
+        ['Angular', 'frontend'],
         ['Bulma', 'frontend'],
         ['Agile', 'devops'],
-        ['Git', 'devops'],
       ],
       imageSrc: beecologyScreenshot,
       url: 'https://beecology.wpi.edu/webapp_new/main/#/app/home'
@@ -36,8 +35,8 @@ export default function Projects() {
       description: 'Created a Hex-like game with an infinite hexagonal board.',
       skills: [
         ['Java', 'backend'],
-        ['Algorithms', 'backend'],
         ['Data structures', 'backend'],
+        ['Algorithms', 'backend'],
         ['Design patterns', 'backend'],
       ],
       imageSrc: hiveGameplay,
@@ -60,8 +59,8 @@ export default function Projects() {
       name: 'Punchender',
       description: 'Built a full-stack, cloud-based crowdfunding platform.',
       skills: [
-        ['React', 'frontend'],
         ['JavaScript', 'frontend'],
+        ['React', 'frontend'],
         ['MySQL', 'database'],
         ['AWS', 'devops'],
         ['Agile', 'devops']

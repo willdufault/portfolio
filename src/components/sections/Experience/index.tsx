@@ -23,15 +23,14 @@ export default function Experience() {
       position: 'Software Engineer',
       company: 'BJ\'s Wholesale Club',
       description: [
-        'Identified and deleted 94 TB of duplicate data from S3 using Python, saving $26,000 per year (projected)',
-        'Decreased backup time by 98% by using Python with multithreading to concurrently copy files to S3',
-        'Automated EMR key rotation using Python, Jenkins, and Secrets Manager, enhancing data security'
+        'Led a cross-departmental team to delete 94 TB of duplicate data from S3 using Python, saving $26,000 per year',
+        'Decreased S3 backup time by 98% by using Python with multithreading to efficiently copy files between folders',
+        'Streamlined S3 lifecycle policy creation by using Python to convert Excel data to JSON, saving 2 hours per week'
       ],
       startDate: 'Aug 2024',
       endDate: 'Present',
       skills: [
         ['Python', 'backend'],
-        ['Multithreading', 'backend'],
         ['AWS', 'devops'],
         ['Jenkins', 'devops'],
         ['Agile', 'devops']
@@ -42,18 +41,15 @@ export default function Experience() {
       position: 'Web Developer',
       company: 'Upwork',
       description: [
-        'Built websites using React and TypeScript that were tailored to client-defined specifications',
-        'Designed and implemented responsive user interfaces using Tailwind, Bootstrap, and Figma',
-        'Maintained regular communication with clients to gather feedback and confirm satisfaction'
+        // todo: Build up a portfolio first.
       ],
       startDate: 'Jul 2024',
       endDate: 'Present',
       skills: [
         ['React', 'frontend'],
         ['TypeScript', 'frontend'],
-        ['Tailwind', 'frontend'],
         ['Bootstrap', 'frontend'],
-        ['Figma', 'frontend']
+        ['Tailwind', 'frontend']
       ],
       imageSrc: upworkLogo
     },
@@ -62,7 +58,7 @@ export default function Experience() {
       company: 'BJ\'s Wholesale Club',
       description: [
         'Earned the Pacesetter Award for ranking in the top 10% of interns in the Management Development Program',
-        'Implemented 3 SageMaker lifecycle configurations to stop idle instances, saving $3,500 per year',
+        'Implemented 3 SageMaker lifecycle configurations to automatically stop idle instances, saving $3,500 per year',
         'Engineered an alert system to monitor EC2 instances using Python, Lambda, and SNS, saving $2,300 per year'
       ],
       startDate: 'May 2023',
@@ -70,7 +66,6 @@ export default function Experience() {
       skills: [
         ['Python', 'backend'],
         ['AWS', 'devops'],
-        ['Jenkins', 'devops'],
         ['Docker', 'devops'],
         ['Agile', 'devops']
       ],
@@ -80,18 +75,17 @@ export default function Experience() {
       position: 'Undergraduate Teaching Assistant',
       company: 'WPI',
       description: [
-        'Taught the fundamentals of Java and object-oriented programming to a 400+ students',
-        'Expedited grading by 10%+ by using Python to automatically reject incorrect responses',
-        'Troubleshot problems in labs and office hours and guided students through testing and debugging'
+        'Mentored and taught the fundamentals of Java and object-oriented programming to a class of 400+ students',
+        'Expedited grading by 10%+ by using Python and regular expressions to automatically reject incorrect responses',
+        'Troubleshot problems in labs and office hours and guided 5+ students per session through testing and debugging'
       ],
       startDate: 'Sep 2023',
       endDate: 'Dec 2023',
       skills: [
         ['Java', 'backend'],
         ['Python', 'backend'],
-        ['OOP', 'backend'],
-        ['Regex', 'backend'],
-        ['Debugging', 'backend']
+        ['Data structures', 'backend'],
+        ['Algorithms', 'backend']
       ],
       imageSrc: wpiSeal
     }

@@ -13,14 +13,14 @@ export default function Skills() {
 
   const frontEndSkills: string[] = [
     'HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Angular', 'Svelte', 'Tailwind',
-    'Bootstrap', 'Bulma', 'Figma', 'Responsive design'
+    'Bootstrap', 'Bulma'
   ]
   const backEndSkills: string[] = [
     'Python', 'Java', 'C', 'C++', 'Node', 'Express', 'Data structures', 'Algorithms',
-    'Design patterns', 'OOP', 'Unit testing', 'Debugging', 'Multithreading', 'Regex'  
+    'Design patterns' 
   ]
   const databaseSkills: string[] = [
-    'SQL', 'MySQL', 'Oracle', 'SQLite', 'RDS', 'MongoDB'
+    'SQL', 'MySQL', 'Oracle', 'RDS', 'MongoDB'
   ]
   const devopsSkills: string[] = [
     'AWS', 'Git', 'Linux', 'Bash', 'Jenkins', 'Docker', 'CI/CD', 'Agile'
