@@ -21,7 +21,7 @@ export default function Experience() {
       degree: 'BS in Computer Science',
       minor: 'Minor in Data Science',
       description: [
-        'GPA: 3.91/4.0, Dean\'s List for all semesters',
+        'GPA: 3.91, Dean\'s List for all semesters',
         'Graduated with High Distinction (equivalent to Summa Cum Laude)',
         'Member of Upsilon Pi Epsilon (Computer Science Honor Society)'
       ],
