@@ -23,7 +23,7 @@ export default function Experience() {
       position: 'Software Engineer',
       company: 'BJ\'s Wholesale Club',
       description: [
-        'Assumed a temporary role to sustain key operations and support critical projects amid budget constraints',
+        'Assuming an interim position due to budget constraints to sustain key operations and support critical projects',
         'Led a cross-departmental team to delete 94 TB of duplicate data from S3 using Python, saving $26,000 per year',
         'Decreased S3 backup time by 98% by using Python with multithreading to efficiently copy files between folders',
       ],
