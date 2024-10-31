@@ -9,7 +9,7 @@ interface Props {
 export default function Section({ id, isAlternate = false, children }: Props) {
   return (
     <>
-      <section id={id} className={`${isAlternate ? 'bg-[#fcfcfc]' : 'bg-white'}`}>
+      <section id={id} className={`${isAlternate ? 'bg-slate-50' : 'bg-white'}`}>
         <div className='max-w-screen-md mx-auto p-4'>
           {children}
         </div>

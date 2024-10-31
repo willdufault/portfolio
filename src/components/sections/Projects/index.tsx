@@ -25,7 +25,6 @@ export default function Projects() {
         ['TypeScript', 'frontend'],
         ['Angular', 'frontend'],
         ['Bulma', 'frontend'],
-        ['Agile', 'devops'],
       ],
       imageSrc: beecologyScreenshot,
       url: 'https://beecology.wpi.edu/webapp_new/main/#/app/home'
@@ -50,7 +49,7 @@ export default function Projects() {
         ['Python', 'backend'],
         ['Node', 'backend'],
         ['Express', 'backend'],
-        ['AWS', 'devops'],
+        ['AWS', 'backend'],
       ],
       imageSrc: dropboxScreenshot,
       url: 'https://github.com/willdufault/24ours'
@@ -61,9 +60,8 @@ export default function Projects() {
       skills: [
         ['JavaScript', 'frontend'],
         ['React', 'frontend'],
+        ['AWS', 'backend'],
         ['MySQL', 'database'],
-        ['AWS', 'devops'],
-        ['Agile', 'devops']
       ],
       imageSrc: kickstarterScreenshot,
       url: 'https://github.com/willdufault/punchender'
@@ -72,7 +70,7 @@ export default function Projects() {
 
   return (
     <>
-      <Section id='projects' isAlternate={true}>
+      <Section id='projects'>
         <SectionTitle>Projects</SectionTitle>
         <div className='flex flex-col gap-3 sm:grid sm:grid-cols-2'>
           {projects.map((project, index) =>

@@ -12,18 +12,16 @@ export default function Skills() {
   }
 
   const frontEndSkills: string[] = [
-    'HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Angular', 'Svelte', 'Tailwind',
-    'Bootstrap', 'Bulma'
+    'HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Angular', 'Svelte', 'Bootstrap', 'Tailwind', 'Bulma'
   ]
   const backEndSkills: string[] = [
-    'Python', 'Java', 'C', 'C++', 'Node', 'Express', 'Data structures', 'Algorithms',
-    'Design patterns' 
+    'Python', 'Java', 'C', 'C++', 'Node', 'Express', 'AWS', 'Data structures', 'Algorithms', 'Design patterns'
   ]
   const databaseSkills: string[] = [
     'SQL', 'MySQL', 'Oracle', 'RDS', 'MongoDB'
   ]
   const devopsSkills: string[] = [
-    'AWS', 'Git', 'Linux', 'Bash', 'Jenkins', 'Docker', 'Agile'
+    'Git', 'Jenkins', 'Docker', 'Bash', 'Linux' 
   ]
 
   interface AllSkillsData {
@@ -49,7 +47,7 @@ export default function Skills() {
 
   return (
     <>
-      <Section id='skills'>
+      <Section id='skills' isAlternate={true}>
         <SectionTitle>Skills</SectionTitle>
         <div className='flex flex-col gap-y-5'>
           {allSkills.map((skillData, index) =>

@@ -33,7 +33,7 @@ export default function Experience() {
 
   return (
     <>
-      <Section id='education' isAlternate={true}>
+      <Section id='education'>
         <SectionTitle>Education</SectionTitle>
         <div className='flex flex-col gap-y-3'>
           {educations.map((education, index) =>
