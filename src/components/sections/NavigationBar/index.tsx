@@ -25,7 +25,7 @@ export default function NavigationBar() {
           <button onClick={openMenu} className='flex block sm:hidden'>
             <FontAwesomeIcon icon={faBars} className='h-6 w-6'></FontAwesomeIcon>
           </button>
-          <div className={`fixed top-0 sm:static py-6 px-4 sm:p-0 h-dvh sm:h-fit bg-[#fcfcfc] sm:bg-transparent z-10 transition-[left] ${isMenuOpen ? 'left-0' : '-left-40'}`}>
+          <div className={`fixed top-0 sm:static py-6 px-4 sm:p-0 h-dvh sm:h-fit bg-slate-50 sm:bg-transparent z-10 transition-[left] ${isMenuOpen ? 'left-0' : '-left-40'}`}>
             <button onClick={closeMenu} className='flex sm:hidden'>
               <FontAwesomeIcon icon={faXmark} className='h-6 w-6'></FontAwesomeIcon>
             </button>
