@@ -19,7 +19,7 @@ export default function Skills() {
     'Python', 'Java', 'C', 'C++', 'Node', 'Express', 'AWS', 'Data structures', 'Algorithms', 'Design patterns'
   ]
   const databaseSkills: string[] = [
-    'SQL', 'MySQL', 'Oracle', 'PostgreSQL', 'RDS', 'MongoDB'
+    'SQL', 'MySQL', 'Oracle', 'PostgreSQL', 'RDS', 'MongoDB', 'NoSQL'
   ]
   const devopsSkills: string[] = [
     'Git', 'Jenkins', 'Docker', 'Bash', 'Linux', 'CI/CD'
