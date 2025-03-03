@@ -22,7 +22,7 @@ export default function Skills() {
     'SQL', 'MySQL', 'Oracle', 'PostgreSQL', 'RDS', 'MongoDB'
   ]
   const devopsSkills: string[] = [
-    'Git', 'Jenkins', 'Docker', 'Bash', 'Linux' 
+    'Git', 'Jenkins', 'Docker', 'Bash', 'Linux', 'CI/CD'
   ]
 
   interface AllSkillsData {
