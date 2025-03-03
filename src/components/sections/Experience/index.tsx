@@ -36,7 +36,7 @@ export default function Experience() {
         {
           title: 'Cloud Engineer',
           description: [
-            'Led a cross-departmental team to delete 350+ TB of duplicate data from S3 using Python, saving $74,000 per year',
+            'Led a cross-departmental team to delete 370+ TB of duplicate data from S3 using Python, saving $78,000 per year',
             'Decreased S3 backup time by 98% by using Python with multithreading to efficiently copy files between folders',
             'Streamlined S3 lifecycle policy creation by using Python to convert Excel data to JSON, saving 2 hours per week'
           ],
