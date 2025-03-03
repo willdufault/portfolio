@@ -19,7 +19,7 @@ export default function Skills() {
     'Python', 'Java', 'C', 'C++', 'Node', 'Express', 'AWS', 'Data structures', 'Algorithms', 'Design patterns'
   ]
   const databaseSkills: string[] = [
-    'SQL', 'MySQL', 'Oracle', 'RDS', 'MongoDB'
+    'SQL', 'MySQL', 'Oracle', 'PostgreSQL', 'RDS', 'MongoDB'
   ]
   const devopsSkills: string[] = [
     'Git', 'Jenkins', 'Docker', 'Bash', 'Linux' 
@@ -40,14 +40,14 @@ export default function Skills() {
 
   const certifications: CertificationData[] = [
     {
-      name: 'AWS Certified Solutions Architect – Associate',
-      imageSrc: awsCsaaLogo,
-      url: 'https://www.credly.com/badges/b71f2044-72f0-4afe-9185-2090be6cfaf4/'
-    },
-    {
       name: 'AWS Certified Cloud Practitioner',
       imageSrc: awsCcpLogo,
       url: 'https://www.credly.com/badges/603b982a-6936-4c68-8b64-a07cae33f6d0/'
+    },
+    {
+      name: 'AWS Certified Solutions Architect – Associate',
+      imageSrc: awsCsaaLogo,
+      url: 'https://www.credly.com/badges/b71f2044-72f0-4afe-9185-2090be6cfaf4/'
     },
   ]
 

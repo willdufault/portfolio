@@ -1,6 +1,6 @@
 import Section from '../../Section';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedinIn, faGithub, faUpwork } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
@@ -46,9 +46,9 @@ export default function NavigationBar() {
             <a href='https://github.com/willdufault' className='group flex'>
               <FontAwesomeIcon icon={faGithub} className='w-6 h-6 md:h-5 md:w-5 text-zinc-500 group-hover:text-black transition-colors' />
             </a>
-            <a href='https://www.upwork.com/freelancers/~0176292ee3fa699089' className='group flex'>
+            {/* <a href='https://www.upwork.com/freelancers/~0176292ee3fa699089' className='group flex'>
               <FontAwesomeIcon icon={faUpwork} className='w-6 h-6 md:h-5 md:w-5 text-zinc-500 group-hover:text-black transition-colors' />
-            </a>
+            </a> */}
           </div>
         </div>
       </Section>
