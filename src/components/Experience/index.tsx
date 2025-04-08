@@ -56,7 +56,7 @@ export default function Experience() {
       ],
     },
     {
-      company: 'The Coffee to Campfire Podcast',
+      company: 'Coffee to Campfire',
       skills: [
         ['React', 'frontend'],
         ['Bootstrap', 'frontend'],
