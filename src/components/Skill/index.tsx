@@ -1,6 +1,6 @@
 import { ReactNode } from 'react'
 
-interface Props {
+type Props = {
   category: string
   children: ReactNode
 }
@@ -13,11 +13,14 @@ export default function Skill({ category, children }: Props) {
     ['devops', ['bg-teal-500', 'hover:bg-teal-600', 'text-teal-50']],
   ])
 
-  const [backgroundColor, hoverBackgroundColor, textColor] = categoryColors.get(category)!
+  const [backgroundColor, hoverBackgroundColor, textColor] =
+    categoryColors.get(category)!
 
   return (
     <>
-      <div className={`rounded-full ${backgroundColor} ${hoverBackgroundColor} ${textColor} px-3 py-1 transition-colors`}>
+      <div
+        className={`rounded-full ${backgroundColor} ${hoverBackgroundColor} ${textColor} px-3 py-1 transition-colors`}
+      >
         {children}
       </div>
     </>

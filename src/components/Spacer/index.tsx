@@ -1,7 +1,7 @@
 export default function Spacer() {
   return (
     <>
-      <div className='pt-12'></div>
+      <div className="pt-12"></div>
     </>
   )
 }

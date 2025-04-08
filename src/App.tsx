@@ -1,10 +1,10 @@
-import NavigationBar from './components/sections/NavigationBar'
-import Hero from './components/sections/Hero'
-import Experience from './components/sections/Experience'
-import Projects from './components/sections/Projects'
-import Skills from './components/sections/Skills'
-import Education from './components/sections/Education'
-import Footer from './components/sections/Footer'
+import Education from './components/Education'
+import Experience from './components/Experience'
+import Footer from './components/Footer'
+import Hero from './components/Hero'
+import NavigationBar from './components/NavigationBar'
+import Projects from './components/Projects'
+import Skills from './components/Skills'
 
 function App() {
   return (
