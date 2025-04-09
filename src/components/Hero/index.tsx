@@ -9,8 +9,8 @@ export default function Hero() {
           <h1 className="text-3xl font-semibold pb-2">Hi, I'm Will!</h1>
           <p>
             I'm a software engineer interested in full-stack development and
-            cloud computing. I currently work as a Cloud Engineer at BJ's
-            Wholesale Club.
+            cloud computing. I currently work as a Cloud Software Engineer at
+            BJ's Wholesale Club.
           </p>
           {/* and as a freelance Web Developer on Upwork */}
         </div>
