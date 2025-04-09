@@ -47,6 +47,7 @@ export default function Skills() {
   const devopsSkills: string[] = [
     'Git',
     'Jenkins',
+    'GitHub Actions',
     'Docker',
     'Bash',
     'Linux',

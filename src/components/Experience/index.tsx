@@ -36,7 +36,7 @@ export default function Experience() {
         {
           title: 'Cloud Engineer',
           description: [
-            'Led a cross-departmental team to delete 690+ TB of duplicate data from S3 using Python, saving $145,000 per year',
+            'Led a cross-departmental team to delete 690+ TB of duplicate data from S3 using Python, saving $185,000 per year',
             'Decreased S3 backup time by 98% by using Python with multithreading to efficiently copy files between folders',
             'Streamlined S3 lifecycle policy creation by using Python to convert Excel data to JSON, saving 2 hours per week',
           ],
@@ -61,6 +61,7 @@ export default function Experience() {
         ['React', 'frontend'],
         ['Bootstrap', 'frontend'],
         ['TypeScript', 'frontend'],
+        ['GitHub Actions', 'devops'],
         ['CI/CD', 'devops'],
       ],
       imageSrc: ctcLogo,
@@ -68,8 +69,9 @@ export default function Experience() {
         {
           title: 'Web Developer',
           description: [
-            'Designed and developed a website tailored to client-defined specifications using TypeScript, React, and Bootstrap',
-            'Maintained weekly communication with clients to gather feedback and update website content',
+            'Designed and developed a responsive website tailored to client specifications using TypeScript, React, and Bootstrap',
+            'Accelerated deployment speed by 50% by automating build and deployment with a GitHub Actions CI/CD pipeline',
+            'Maintained weekly communication with clients to gather feedback and iteratively improve and update the website',
           ],
           startDate: 'Sep 2024',
           endDate: 'Present',
