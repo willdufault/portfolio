@@ -34,7 +34,7 @@ export default function Experience() {
       ],
       positions: [
         {
-          title: 'Cloud Engineer',
+          title: 'Cloud Software Engineer',
           description: [
             'Led a cross-departmental team to delete 690+ TB of duplicate data from S3 using Python, saving $185,000 per year',
             'Decreased S3 backup time by 98% by using Python with multithreading to efficiently copy files between folders',
@@ -44,7 +44,7 @@ export default function Experience() {
           endDate: 'Present',
         },
         {
-          title: 'Cloud Engineer Intern',
+          title: 'Cloud Software Engineer Intern',
           description: [
             'Earned the Pacesetter Award for ranking in the top 10% of interns in the Management Development Program',
             'Implemented 3 SageMaker lifecycle configurations to automatically stop idle instances, saving $3,500 per year',
