@@ -19,7 +19,7 @@ export default function Projects() {
   const projects: ProjectData[] = [
     {
       name: 'Beecology',
-      description: 'Revamped the user type of a citizen science web app.',
+      description: 'Revamped the user interface of a citizen science web app.',
       skills: [
         ['TypeScript', 'frontend'],
         ['Angular', 'frontend'],
