@@ -42,6 +42,7 @@ export default function Skills() {
     'PostgreSQL',
     'RDS',
     'MongoDB',
+    'DynamoDB',
     'NoSQL',
   ]
   const devopsSkills: string[] = [
