@@ -6,11 +6,11 @@ export default function Hero() {
     <>
       <Section id="hero">
         <div className="max-w-lg mx-auto pt-4">
-          <h1 className="text-3xl font-semibold pb-2">Hi, I'm Will!</h1>
+          <h1 className="text-3xl font-semibold pb-2">Will Dufault</h1>
           <p>
-            I'm a software engineer interested in full-stack development and
-            cloud computing. I currently work as a Cloud Engineer at BJ's
-            Wholesale Club.
+            A software engineer interested in full-stack development and cloud
+            computing. Currently working as a Cloud Engineer at BJ's Wholesale
+            Club.
           </p>
           {/* and as a freelance Web Developer on Upwork */}
         </div>
