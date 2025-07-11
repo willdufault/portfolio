@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <>
       <Section id="hero">
-        <div className="max-w-lg mx-auto pt-4">
+        <div className="max-w-[33rem] mx-auto pt-4">
           <h1 className="text-3xl font-semibold pb-2">Will Dufault</h1>
           <p>
             A software engineer interested in full-stack development and cloud
