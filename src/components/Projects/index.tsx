@@ -1,7 +1,7 @@
-import beecologyScreenshot from '../../assets/images/beecology-screenshot.jpg'
 import dropboxScreenshot from '../../assets/images/dropbox-screenshot.jpg'
 import hiveGameplay from '../../assets/images/hive-gameplay.jpg'
 import kickstarterScreenshot from '../../assets/images/kickstarter-screenshot.jpg'
+import minifiScreenshot from '../../assets/images/minifi-screenshot.jpg'
 import Card from '../Card'
 import Section from '../Section'
 import Skill from '../Skill'
@@ -18,15 +18,17 @@ export default function Projects() {
 
   const projects: ProjectData[] = [
     {
-      name: 'Beecology',
-      description: 'Revamped the user interface of a citizen science web app.',
+      name: 'Minifi',
+      description: 'Built a full-stack tech article-sharing platform.',
       skills: [
+        ['React', 'frontend'],
         ['TypeScript', 'frontend'],
-        ['Angular', 'frontend'],
-        ['Bulma', 'frontend'],
+        ['Node', 'backend'],
+        ['Express', 'backend'],
+        ['MongoDB', 'database'],
       ],
-      imageSrc: beecologyScreenshot,
-      url: 'https://beecology.wpi.edu/webapp_new/main/#/app/home',
+      imageSrc: minifiScreenshot,
+      url: 'https://github.com/willdufault/minifi',
     },
     {
       name: 'HexAround',
@@ -55,7 +57,7 @@ export default function Projects() {
     },
     {
       name: 'Punchender',
-      description: 'Built a full-stack, cloud-based crowdfunding platform.',
+      description: 'Created a full-stack cloud-based crowdfunding platform.',
       skills: [
         ['JavaScript', 'frontend'],
         ['React', 'frontend'],
